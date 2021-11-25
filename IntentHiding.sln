@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IntentHiding", "IntentHiding\IntentHiding.vcxproj", "{4D8C66EA-9066-4081-8AEF-3CC7431FABCE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A9ADAFC9-5215-4C67-A11B-D0D781AF240B} = {A9ADAFC9-5215-4C67-A11B-D0D781AF240B}
+	EndProjectSection
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "DeepModel", "DeepModel\DeepModel.pyproj", "{8CEA5808-74D9-49C8-992D-97C7364341ED}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataCollector", "DataCollector\DataCollector.vcxproj", "{A9ADAFC9-5215-4C67-A11B-D0D781AF240B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		ClangRealease|Any CPU = ClangRealease|Any CPU
+		ClangRealease|x64 = ClangRealease|x64
+		ClangRealease|x86 = ClangRealease|x86
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		MSVCRelease|Any CPU = MSVCRelease|Any CPU
+		MSVCRelease|x64 = MSVCRelease|x64
+		MSVCRelease|x86 = MSVCRelease|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D8C66EA-9066-4081-8AEF-3CC7431FABCE}.ClangRealease|Any CPU.ActiveCfg = ClangRealease|Win32
+		{4D8C66EA-9066-4081-8AEF-3CC7431FABCE}.ClangRealease|x64.ActiveCfg = ClangRealease|x64
+		{4D8C66EA-9066-4081-8AEF-3CC7431FABCE}.ClangRealease|x64.Build.0 = ClangRealease|x64
+		{4D8C66EA-9066-4081-8AEF-3CC7431FABCE}.ClangRealease|x86.ActiveCfg = ClangRealease|Win32
+		{4D8C66EA-9066-4081-8AEF-3CC7431FABCE}.ClangRealease|x86.Build.0 = ClangRealease|Win32
+		{4D8C66EA-9066-4081-8AEF-3CC7431FABCE}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{4D8C66EA-9066-4081-8AEF-3CC7431FABCE}.Debug|x64.ActiveCfg = Debug|x64
+		{4D8C66EA-9066-4081-8AEF-3CC7431FABCE}.Debug|x64.Build.0 = Debug|x64
+		{4D8C66EA-9066-4081-8AEF-3CC7431FABCE}.Debug|x86.ActiveCfg = Debug|Win32
+		{4D8C66EA-9066-4081-8AEF-3CC7431FABCE}.Debug|x86.Build.0 = Debug|Win32
+		{4D8C66EA-9066-4081-8AEF-3CC7431FABCE}.MSVCRelease|Any CPU.ActiveCfg = MSVCRelease|Win32
+		{4D8C66EA-9066-4081-8AEF-3CC7431FABCE}.MSVCRelease|x64.ActiveCfg = MSVCRelease|x64
+		{4D8C66EA-9066-4081-8AEF-3CC7431FABCE}.MSVCRelease|x86.ActiveCfg = MSVCRelease|Win32
+		{8CEA5808-74D9-49C8-992D-97C7364341ED}.ClangRealease|Any CPU.ActiveCfg = ClangRealease|Any CPU
+		{8CEA5808-74D9-49C8-992D-97C7364341ED}.ClangRealease|x64.ActiveCfg = ClangRealease|Any CPU
+		{8CEA5808-74D9-49C8-992D-97C7364341ED}.ClangRealease|x86.ActiveCfg = ClangRealease|Any CPU
+		{8CEA5808-74D9-49C8-992D-97C7364341ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CEA5808-74D9-49C8-992D-97C7364341ED}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8CEA5808-74D9-49C8-992D-97C7364341ED}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8CEA5808-74D9-49C8-992D-97C7364341ED}.MSVCRelease|Any CPU.ActiveCfg = MSVCRelease|Any CPU
+		{8CEA5808-74D9-49C8-992D-97C7364341ED}.MSVCRelease|x64.ActiveCfg = MSVCRelease|Any CPU
+		{8CEA5808-74D9-49C8-992D-97C7364341ED}.MSVCRelease|x86.ActiveCfg = MSVCRelease|Any CPU
+		{A9ADAFC9-5215-4C67-A11B-D0D781AF240B}.ClangRealease|Any CPU.ActiveCfg = ClangRealease|Win32
+		{A9ADAFC9-5215-4C67-A11B-D0D781AF240B}.ClangRealease|x64.ActiveCfg = ClangRealease|x64
+		{A9ADAFC9-5215-4C67-A11B-D0D781AF240B}.ClangRealease|x64.Build.0 = ClangRealease|x64
+		{A9ADAFC9-5215-4C67-A11B-D0D781AF240B}.ClangRealease|x86.ActiveCfg = ClangRealease|Win32
+		{A9ADAFC9-5215-4C67-A11B-D0D781AF240B}.ClangRealease|x86.Build.0 = ClangRealease|Win32
+		{A9ADAFC9-5215-4C67-A11B-D0D781AF240B}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{A9ADAFC9-5215-4C67-A11B-D0D781AF240B}.Debug|x64.ActiveCfg = Debug|x64
+		{A9ADAFC9-5215-4C67-A11B-D0D781AF240B}.Debug|x64.Build.0 = Debug|x64
+		{A9ADAFC9-5215-4C67-A11B-D0D781AF240B}.Debug|x86.ActiveCfg = Debug|Win32
+		{A9ADAFC9-5215-4C67-A11B-D0D781AF240B}.Debug|x86.Build.0 = Debug|Win32
+		{A9ADAFC9-5215-4C67-A11B-D0D781AF240B}.MSVCRelease|Any CPU.ActiveCfg = MSVCRelease|Win32
+		{A9ADAFC9-5215-4C67-A11B-D0D781AF240B}.MSVCRelease|x64.ActiveCfg = MSVCRelease|x64
+		{A9ADAFC9-5215-4C67-A11B-D0D781AF240B}.MSVCRelease|x86.ActiveCfg = MSVCRelease|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED8721D4-006E-4080-AD54-06F202F5615E}
+	EndGlobalSection
+EndGlobal

@@ -70,3 +70,25 @@ The overall framework diagram is as follows:
 - The “input” we mentioned here is a high-dimensional space vector. It is difficult to infer the real “purpose” simply by modifying some data because of Robustness of AI model
 
 ![Reverse](./misc/reverse.png)
+
+
+
+### Usage
+
+> Train your own model and use it to hide the intent.
+
+1. Make your shellcode and put it in the `lib/shellcode` directory
+2. Setup Dataset(`DeepModel/DeepModel.py`)
+- Shellcode Decoder Data: `generate_data`, change it to your own, and use it in `DataGenerator`
+- Shellcode Error Correction Data: `make_shellcode_data`, change it to your own, and use it in `ECCDataGenerator`
+3. Make Model(`DeepModel/DeepModel.py`)
+- Shellcode Generator Model: `make_textcnn_lstm_model`
+- Shellcode Error Correction Model: `make_ecc_model`
+4. Train Model(`DeepModel/DeepModel.py`)
+- `train_textcnn_lstm、train_ecc_model`
+5. Convert Model(`DeepModel/DeepModel.py`)
+- `transform_model`: get `model_decoder.json` file finanly
+6. Setup Config(`DeepModel/run.py`)
+-  `dump_hex2header`、`dump_model_file`, you will get the `resource_model.h` in `IntentHiding` directory
+7. Make main program
+- open `IntentHiding.sln`, build project, and you will get output in `bin/` directory
